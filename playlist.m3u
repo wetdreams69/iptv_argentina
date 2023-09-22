@@ -1,0 +1,31 @@
+
+######################################################################
+#  _       _                                          _              #
+# (_)     | |                                        | |             # 
+#  _ _ __ | |___   __  __ _  ___ _ __   ___ _ __ __ _| |_ ___  _ __  #
+# | | '_ \| __\ \ / / / _` |/ _ \ '_ \ / _ \ '__/ _` | __/ _ \| '__| #
+# | | |_) | |_ \ V / | (_| |  __/ | | |  __/ | | (_| | || (_) | |    #
+# |_| .__/ \__| \_/   \__, |\___|_| |_|\___|_|  \__,_|\__\___/|_|    #
+#   | |         ______ __/ |                                         #
+#   |_|        |______|___/                                          #
+#                                                                    #
+#                                     >> https://github.com/osgioia  #
+######################################################################
+
+
+#EXTM3U
+
+#EXTINF:-1 group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/Vorterix.jpg" tvg-id="", Vorterix
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1695440878/ei/jgsOZZiVF5DO8wSmgYXABQ/ip/172.177.246.176/id/g7Kx0AKmfTg.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr3---sn-p5qlsn6l.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f-q_mqD7kBGgiMJuzR3PKBBroNmOlHLqYwL00kt_yLe7EDCF/vprv/1/playlist_type/DVR/mh/PM/mm/44/mn/sn-p5qlsn6l/ms/lva/mv/u/mvi/3/pl/22/dover/11/pacing/0/keepalive/yes/fexp/24007246/beids/24350018/mt/1695418336/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRgIhAJtTq1cnlWMxAsUQRUagdiKRNNCSYbHQ4_TEXHI6qC_XAiEArOxrRfz1tgOzyARUFAQ52m8bpTfm9k38CHOD7alVLzA%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAIqfgms6q_PqiT_khb1QpLNWr4whe3UCxxyAZXWFDQ3xAiASvrZ2pA_PVmtQWErVmyiF5jDn0QhvupyiWdJ_6HwbXQ%3D%3D/playlist/index.m3u8
+
+#EXTINF:-1 group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" tvg-id="", America TV
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1695440879/ei/jwsOZdWoNYKsy_sP4L6NwAQ/ip/172.177.246.176/id/zcWXboTnous.3/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr4---sn-p5qlsn7d.googlevideo.com/playlist_duration/30/manifest_duration/30/gcr/us/spc/UWF9f2FDpsPZjXUQopyh7qTIqclfvNddluUA-1qt4Q/vprv/1/playlist_type/DVR/mh/sM/mm/44/mn/sn-p5qlsn7d/ms/lva/mv/u/mvi/4/pl/22/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1695418336/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,gcr,spc,vprv,playlist_type/sig/AOq0QJ8wRQIgIqHdxBUPijHVvUxM0q_GE8AH3V4O4KDClVl7EW0S9X8CIQD943PvLGWNJ1__eu1FsGZH2LfmYigKBifTDXxkXQ16tA%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRgIhAIlcbvAsd-khAc4p-09Hro3tu8LRhL9hboDkgM-hrjyPAiEAnGGHpNRXGE_Nzm-9lW7NtLxRcjAMOwa3hDUzCG1bVnY%3D/playlist/index.m3u8
+
+#EXTINF:-1 group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" tvg-id="", Lofi Girl Radio
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1695440881/ei/kQsOZYnLDc678wTyg5LwDg/ip/172.177.246.176/id/4xDzrJKXOOY.2/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr3---sn-p5qddn7r.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f4c6MydlpXk_KwpJK11pU6tXQxq3QtQVbhzBtQ/vprv/1/playlist_type/DVR/mh/PJ/mm/44/mn/sn-p5qddn7r/ms/lva/mv/u/mvi/3/pl/22/dover/11/pacing/0/keepalive/yes/fexp/24007246/mt/1695418336/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIhALEnaz1CfDZxoKCzRjxMNTDclFnwmrP1wkRWu8eY4UUVAiAhzN6nGLQ472BTE1gyDh3wd4SvD5cfvshrn7Y2ATixQA%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgIytVJ5IDUlZ0UEwIo3FqgqBrZbp5m8Vm2VLIjFi0ZWICIEdU_gHsztjfTqUhrdKzV6ZkMkr_eZ0lMrZzOEyLEayD/playlist/index.m3u8
+
+#EXTINF:-1 group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/800px-Telefe_%28nuevo_logo%29.png" tvg-id="", Telefe
+https://video-weaver.ord03.hls.ttvnw.net/v1/playlist/CskEs6msVyqochWv46K_6lQBsA9vWwcmivVoGiLiPYgVRa3tfyzu94fgD2V91sDMGFRe-e8oKdUdezDjsfnqnXKq_3IT6DR_OjeEgJHNp9R3xLsuMJPDtUHyQ-0qt1iM6DHRGnDR-BnBS6Y4PnrNZgoulFKD2SpamlhW8uyhEwk7_p7oK5sHIVVRaEi1p60b30JqZwipL5pxKFicj6kH383v9madrlDkoqw7o9LyKGO1mq9m456wl724tfVdQO5jLl2OCYvaPYhTYz9ywBTqheTKYHkKyS3VKK8_VEg9PyKb-ctlj6EW95q8_w1zygcgq5ZXw2gUEyOQqPsRHr71A8RASkQ55_Lm85s1k3jIfIzxnfjZgkuZimySdxkHIfv4B1MO_xdIxWc2ouBzERfLMB_i2By7zwDZ4UUDLyI09tE0imKVLDxvGM4UDBHp3pn2jkcWbrIvN_h8njy4Qr-yYEwJiPRcANXGoBgUX6obHsTf0uvu-QLM9UG_BpjJ9kpoo4FerMdPS7r_SSupwReQh-olB8pUyPONM6OeBywlWtsWxQ_tyzWy4a5D1x5MKiLEAcMOOQteDulkyGiITRVbFmN2UDOmsACZMopWkMDgk2xhTa18U0j8Kw51f17shqZw07Y2TAbs7TDdDecyBSO77LCMiciu0-hJaXauQyWMSZ2tTk08q9-2TCRBMTVsEZVzzB4XSU93Bfu3C000vG01yY9uyzTR-MVsQuMcLiMDOuQ1BjNg6dEd661fswFF8MQQOIVRY7EXX8q8ipexGgytbsr4mf09Rm9RHSYgASoJdXMtd2VzdC0yMMsH.m3u8
+
+#EXTINF:-1 group-title="Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/800px-Telefe_%28nuevo_logo%29.png" tvg-id="", Telemax
+https://live-edge01.telecentro.net.ar/live/smil:tlx.smil/playlist.m3u8
