@@ -41,7 +41,7 @@ def grab(url):
             return streams["best"].url
         return None
     except streamlink.exceptions.NoPluginError:
-         logger.error("URL Error %s: %s", url, err)
+        logger.error("URL Error %s: %s", url, err)
         return url
 
 def check_url(url):
