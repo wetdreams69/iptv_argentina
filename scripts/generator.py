@@ -11,7 +11,7 @@ import json
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)  
 
-log_file = "output.log" 
+log_file = "log.txt" 
 file_handler = RotatingFileHandler(log_file)
 file_handler.setLevel(logging.DEBUG) 
 
