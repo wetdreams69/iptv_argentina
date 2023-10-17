@@ -120,33 +120,34 @@ with open("playlist.m3u", "w") as f:
             f.write(item['url'])
             f.write('\n')
 
-with open("playlist.json", "w") as f:
-        prev_item = None
-    
-        for item in channel_data:
-            if item['type'] == 'info':
-                prev_item = item
-            if item['type'] == 'link' and item['url']:
-                channel_data_json.append( {
-                    "id": prev_item["tvg_id"],
-                    "name": prev_item["ch_name"],
-                    "alt_names": [""],
-                    "network": "",
-                    "owners": [""],
-                    "country": "AR",
-                    "subdivision": "",
-                    "city": "Buenos Aires",
-                    "broadcast_area": [""],
-                    "languages": ["spa"],
-                    "categories": [prev_item["grp_title"]],
-                    "is_nsfw": False,
-                    "launched": "2016-07-28",
-                    "closed": "2020-05-31",
-                    "replaced_by": "",
-                    "website": item['url'],
-                    "logo": prev_item["tvg_logo"]
-                })
 
+prev_item = None
+
+for item in channel_data:
+    if item['type'] == 'info':
+        prev_item = item
+    if item['type'] == 'link' and item['url']:
+        channel_data_json.append( {
+            "id": prev_item["tvg_id"],
+            "name": prev_item["ch_name"],
+            "alt_names": [""],
+            "network": "",
+            "owners": [""],
+            "country": "AR",
+            "subdivision": "",
+            "city": "Buenos Aires",
+            "broadcast_area": [""],
+            "languages": ["spa"],
+            "categories": [prev_item["grp_title"]],
+            "is_nsfw": False,
+            "launched": "2016-07-28",
+            "closed": "2020-05-31",
+            "replaced_by": "",
+            "website": item['url'],
+            "logo": prev_item["tvg_logo"]
+        })
+
+with open("playlist.json", "w") as f:
     json_data = json.dumps(channel_data_json, indent=2)
     f.write(json_data)
 
