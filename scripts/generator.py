@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)  
 
 log_file = "output.log" 
-file_handler = RotatingFileHandler(log_file, maxBytes=100000, backupCount=1)
+file_handler = RotatingFileHandler(log_file)
 file_handler.setLevel(logging.DEBUG) 
 
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
