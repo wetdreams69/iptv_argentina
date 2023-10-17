@@ -5,6 +5,7 @@ import os
 import sys
 import streamlink
 import logging
+from logging.handlers import RotatingFileHandler
 import json
 
 logger = logging.getLogger(__name__)
