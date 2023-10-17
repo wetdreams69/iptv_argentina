@@ -4,7 +4,15 @@ import requests
 import os
 import sys
 import streamlink
+import logging
 #import json
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)  
+
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.DEBUG)  
+logger.addHandler(console_handler)
 
 banner = r'''
 ######################################################################
@@ -28,10 +36,12 @@ def grab(url):
 
         session = streamlink.Streamlink()
         streams = session.streams(url)
+        logger.debug("URL Streams %s: %s", url, streams)
         if "best" in streams:
             return streams["best"].url
         return None
     except streamlink.exceptions.NoPluginError:
+         logger.error("URL Error %s: %s", url, err)
         return url
 
 def check_url(url):
