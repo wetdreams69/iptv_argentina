@@ -71,8 +71,8 @@ def check_url(url):
     
     return False
 
-# Crear un array para almacenar los datos
 channel_data = []
+channel_data_json = []
 
 channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_info.txt'))
 
@@ -108,7 +108,7 @@ with open("playlist.m3u", "w") as f:
     f.write(banner)
     f.write(f'\n#EXTM3U')
 
-    # Initialize a variable to keep track of the previous item
+
     prev_item = None
 
     for item in channel_data:
@@ -121,6 +121,32 @@ with open("playlist.m3u", "w") as f:
             f.write('\n')
 
 with open("playlist.json", "w") as f:
-    json_data = json.dumps(channel_data, indent=2)
+        prev_item = None
+    
+        for item in channel_data:
+            if item['type'] == 'info':
+                prev_item = item
+            if item['type'] == 'link' and item['url']:
+                channel_data_json.append( {
+                    "id": prev_item["tvg_id"],
+                    "name": prev_item["ch_name"],
+                    "alt_names": [""],
+                    "network": "",
+                    "owners": [""],
+                    "country": "AR",
+                    "subdivision": "",
+                    "city": "Buenos Aires",
+                    "broadcast_area": [""],
+                    "languages": ["spa"],
+                    "categories": [prev_item["grp_title"]],
+                    "is_nsfw": False,
+                    "launched": "2016-07-28",
+                    "closed": "2020-05-31",
+                    "replaced_by": "",
+                    "website": item['url'],
+                    "logo": prev_item["tvg_logo"]
+                })
+
+    json_data = json.dumps(channel_data_json, indent=2)
     f.write(json_data)
 
