@@ -40,9 +40,13 @@ def grab(url):
         if "best" in streams:
             return streams["best"].url
         return None
-    except streamlink.exceptions.NoPluginError:
-        logger.error("URL Error %s: %s", url, err)
+    except streamlink.exceptions.NoPluginError as err:
+        logger.error("URL Error No PluginError %s: %s", url, err)
         return url
+    except streamlink.StreamlinkError as err:
+        logger.error("URL Error %s: %s", url, err)
+        return None
+
 
 def check_url(url):
     try:
