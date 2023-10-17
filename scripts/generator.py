@@ -4,6 +4,7 @@ import requests
 import os
 import sys
 import streamlink
+#import json
 
 banner = r'''
 ######################################################################
@@ -83,16 +84,23 @@ with open('../channel_info.txt') as f:
                     'url': link
                 })
 
+with open("playlist.m3u", "w") as f:
+    f.write(banner)
+    f.write(f'\n#EXTM3U')
 
-print(banner)
-print(f'\n#EXTM3U')
+    # Initialize a variable to keep track of the previous item
+    prev_item = None
 
-# Initialize a variable to keep track of the previous item
-prev_item = None
+    for item in channel_data:
+        if item['type'] == 'info':
+            prev_item = item
+        if item['type'] == 'link' and item['url']:
+            f.write(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
+            f.write(item['url'])
 
-for item in channel_data:
-    if item['type'] == 'info':
-        prev_item = item
-    if item['type'] == 'link' and item['url']:
-        print(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
-        print(item['url'])
+#with open("playlist.json", "w") as f:
+
+#json_data = json.dumps(channel_data, indent=2)
+
+#print(json_data)
+
