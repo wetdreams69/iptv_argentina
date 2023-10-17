@@ -96,7 +96,9 @@ with open("playlist.m3u", "w") as f:
             prev_item = item
         if item['type'] == 'link' and item['url']:
             f.write(f'\n#EXTINF:-1 group-title="{prev_item["grp_title"]}" tvg-logo="{prev_item["tvg_logo"]}" tvg-id="{prev_item["tvg_id"]}", {prev_item["ch_name"]}')
+            f.write('\n')
             f.write(item['url'])
+            f.write('\n')
 
 #with open("playlist.json", "w") as f:
 
