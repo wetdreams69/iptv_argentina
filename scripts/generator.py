@@ -54,9 +54,9 @@ def check_url(url):
 # Crear un array para almacenar los datos
 channel_data = []
 
+channel_info = os.path.abspath(os.path.join(os.path.dirname(__file__), '../channel_info.txt'))
 
-
-with open('../channel_info.txt') as f:
+with open(channel_info) as f:
     for line in f:
         line = line.strip()
         if not line or line.startswith('~~'):
