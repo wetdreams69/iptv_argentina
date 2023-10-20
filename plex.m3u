@@ -131,6 +131,9 @@ https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-6477b95b7ba9c0d593859bfc.m3u8
 #EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-64694d52f73356567a64ce8c" tvg-id="608049aefa2b8ae93c2c3a63-64694d52f73356567a64ce8c" tvg-logo="https://provider-static.plex.tv/epg/cms/production/08be4d01-35de-46c7-b600-546316cbaf4a/corazon_logo_light_-_James_Stowe.png" , Corazón
 https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-64694d52f73356567a64ce8c.m3u8
 
+#EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-652875586425fdb1f32d2169" tvg-id="608049aefa2b8ae93c2c3a63-652875586425fdb1f32d2169" tvg-logo="https://provider-static.plex.tv/epg/cms/production/01a1743b-ef22-4549-84a5-84d044fe11a8/Sports-Court-Network_WHITE_-_Douglas_NeimanRDX.png" , Court Sports Network
+https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-652875586425fdb1f32d2169.m3u8
+
 #EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-6365779dde08f8eec6c3f21f" tvg-id="608049aefa2b8ae93c2c3a63-6365779dde08f8eec6c3f21f" tvg-logo="https://provider-static.plex.tv/epg/cms/production/7887d400-2355-41eb-9e9f-3ea13b3f949c/Craftsy_logo_color.png" , CraftsyTV
 https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-6365779dde08f8eec6c3f21f.m3u8
 
@@ -422,7 +425,7 @@ https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-602d56bef867c4002c897e22.m3u8
 #EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-5f0ff263d71dcb00449ec021" tvg-id="608049aefa2b8ae93c2c3a63-5f0ff263d71dcb00449ec021" tvg-logo="https://provider-static.plex.tv/epg/cms/production/e430cc92-6e22-469c-8666-7cabd46392d7/paa_logo_dark.png" , People are Awesome
 https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-5f0ff263d71dcb00449ec021.m3u8
 
-#EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-63ec0b739866d8d2120ac759" tvg-id="608049aefa2b8ae93c2c3a63-63ec0b739866d8d2120ac759" tvg-logo="https://provider-static.plex.tv/epg/cms/production/b9055c4b-1d37-4ad7-9f88-a34af7c34a41/PickleTV_1500x1000_3_ChannelLogoLight_Casey_Murawskirdx.png" , PickleTV
+#EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-63ec0b739866d8d2120ac759" tvg-id="608049aefa2b8ae93c2c3a63-63ec0b739866d8d2120ac759" tvg-logo="https://provider-static.plex.tv/epg/cms/production/a74fdfd7-528c-4800-b1f4-c3721b1c246f/PickleTV_1500x1000_3_ChannelLogoLight_Casey_Murawskirdx.png" , PickleTV
 https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-63ec0b739866d8d2120ac759.m3u8
 
 #EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-639ba57d3f4612cc150a5723" tvg-id="608049aefa2b8ae93c2c3a63-639ba57d3f4612cc150a5723" tvg-logo="https://provider-static.plex.tv/epg/cms/production/352d158b-9349-41a8-a273-af1eea090ce6/pitufotv_logo_dark_-_Jordan_Warkol.png" , Pitufo TV
@@ -593,7 +596,7 @@ https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-60df3e18541143002f3b8607.m3u8
 #EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-60df3e18541143002f3b8609" tvg-id="608049aefa2b8ae93c2c3a63-60df3e18541143002f3b8609" tvg-logo="https://provider-static.plex.tv/epg/cms/production/2ff63bc1-4325-4b46-81af-6d2e48822b65/USAT_Sports_white2_1500x1000.png" , USA TODAY SPORTS
 https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-60df3e18541143002f3b8609.m3u8
 
-#EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-64e6eff227a915f9b5184e9e" tvg-id="608049aefa2b8ae93c2c3a63-64e6eff227a915f9b5184e9e" tvg-logo="https://provider-static.plex.tv/epg/cms/production/1cb6458f-ebc3-4b88-9f5f-99b4954f895f/Ultimate_Classic_Wrestling_-_WHiteRDX.png" , Ultimate Classic Wrestling
+#EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-64e6eff227a915f9b5184e9e" tvg-id="608049aefa2b8ae93c2c3a63-64e6eff227a915f9b5184e9e" tvg-logo="https://provider-static.plex.tv/epg/cms/production/63ad0b3b-b708-4160-896c-a7c5e11b36e0/Ultimate_Classic_Wrestling_-_WHiteRDX.png" , Ultimate Classic Wrestling
 https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-64e6eff227a915f9b5184e9e.m3u8
 
 #EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-633239caa6615514fb78ecf3" tvg-id="608049aefa2b8ae93c2c3a63-633239caa6615514fb78ecf3" tvg-logo="https://provider-static.plex.tv/epg/cms/production/e98b8325-c421-44e7-81c8-0b6a2c4f7505/Unbeaten_logo_dark_-_Sam_Neazi.png" , Unbeaten
