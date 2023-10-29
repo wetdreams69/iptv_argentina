@@ -81,7 +81,7 @@ with open(channel_info) as f:
         line = line.strip()
         if not line or line.startswith('~~'):
             continue
-        if not line.startswith('https:'):
+        if not line.startswith('https:') or not line.startswith('http:'):
             line = line.split('|')
             ch_name = line[0].strip()
             grp_title = line[1].strip().title()
