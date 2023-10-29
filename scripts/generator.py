@@ -59,15 +59,16 @@ def check_url(url):
         response = requests.head(url, timeout=15)
         if response.status_code == 200:
             return True
-    except requests.exceptions.RequestException:
+    except requests.exceptions.RequestException as err:
         pass
     
     try:
         response = requests.head(url, timeout=15, verify=False)
         if response.status_code == 200:
             return True
-    except requests.exceptions.RequestException:
-        pass
+    except requests.exceptions.RequestException as err:
+        logger.error("URL Error %s: %s", url, err)
+        return None
     
     return False
 
@@ -81,7 +82,7 @@ with open(channel_info) as f:
         line = line.strip()
         if not line or line.startswith('~~'):
             continue
-        if not line.startswith('https:') or not line.startswith('http:'):
+        if not line.startswith('http:') and len(line.split("|")) == 4:
             line = line.split('|')
             ch_name = line[0].strip()
             grp_title = line[1].strip().title()
@@ -92,10 +93,8 @@ with open(channel_info) as f:
                 'ch_name': ch_name,
                 'grp_title': grp_title,
                 'tvg_logo': tvg_logo,
-                'tvg_id': tvg_id,
-                'url': ''
+                'tvg_id': tvg_id
             })
-            
         else:
             link = grab(line)
             if link and check_url(link):
@@ -150,4 +149,3 @@ for item in channel_data:
 with open("playlist.json", "w") as f:
     json_data = json.dumps(channel_data_json, indent=2)
     f.write(json_data)
-
