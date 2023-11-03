@@ -98,6 +98,12 @@ https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-608b7095a09205002da4f295.m3u8
 #EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-6018913fa15130002b284197" tvg-id="608049aefa2b8ae93c2c3a63-6018913fa15130002b284197" tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/cinesureno_logo_light.png" , Cine Sureño
 https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-6018913fa15130002b284197.m3u8
 
+#EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-64e6e2f04a5e9b4cedc6d52b" tvg-id="608049aefa2b8ae93c2c3a63-64e6e2f04a5e9b4cedc6d52b" tvg-logo="https://provider-static.plex.tv/epg/cms/production/a41fd21e-3ffc-481a-b12a-ba5df241299f/Cine_de_horror_logo_1500x1000px_white.png" , Cine de Horror
+https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-64e6e2f04a5e9b4cedc6d52b.m3u8
+
+#EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-64e6e46f27a915f9b5184e9a" tvg-id="608049aefa2b8ae93c2c3a63-64e6e46f27a915f9b5184e9a" tvg-logo="https://provider-static.plex.tv/epg/cms/production/18be52bf-43c6-4ac0-b3bf-ed51b252cb89/Cine_en_espanol_logo_1500x1000px_WHT.png" , Cine en Español
+https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-64e6e46f27a915f9b5184e9a.m3u8
+
 #EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-64695233f73356567a64ce90" tvg-id="608049aefa2b8ae93c2c3a63-64695233f73356567a64ce90" tvg-logo="https://provider-static.plex.tv/epg/cms/production/b8e36746-5a92-4d58-b415-28280a044123/cinema_logo_light-01_-_James_Stowerdx.png" , Cinema
 https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-64695233f73356567a64ce90.m3u8
 
@@ -304,6 +310,9 @@ https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-62ba493395ddc34d7d3cfce0.m3u8
 
 #EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-631932e2f6672ff675ee5ec0" tvg-id="608049aefa2b8ae93c2c3a63-631932e2f6672ff675ee5ec0" tvg-logo="https://provider-static.plex.tv/epg/cms/production/14f69994-03b8-4ed7-81ce-a87d87feb595/labocinalatina_logo_light_-_Jordan_Warkol.png" , La Bocina Latina
 https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-631932e2f6672ff675ee5ec0.m3u8
+
+#EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-6533db8ddf3ccc650a96563a" tvg-id="608049aefa2b8ae93c2c3a63-6533db8ddf3ccc650a96563a" tvg-logo="https://provider-static.plex.tv/epg/cms/production/e7253852-6779-4065-8dc4-07e7295cf348/Channel_Logo_1500x1000_Orange_Antonio_Gonzalez.png" , La Casa del Jaripeo
+https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-6533db8ddf3ccc650a96563a.m3u8
 
 #EXTINF:-1 channel-id="plex-608049aefa2b8ae93c2c3a63-602d6608f867c4002c897e27" tvg-id="608049aefa2b8ae93c2c3a63-602d6608f867c4002c897e27" tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/LaCorriente_Logo_Dark.png" , La Corriente
 https://i.mjh.nz/Plex/608049aefa2b8ae93c2c3a63-602d6608f867c4002c897e27.m3u8
